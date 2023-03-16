@@ -25,8 +25,8 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 //   return false;
 // };
 function isPalindrome(x) {
-    if (x < 0) return false;
-    
+    if (x < 0)
+        return false;
     const strPalindrome = String(x);
     for (let i = 0; i < strPalindrome.length; i++) {
         if (strPalindrome[i] !== strPalindrome[strPalindrome.length - 1 - i])

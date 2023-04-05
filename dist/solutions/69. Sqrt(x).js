@@ -24,7 +24,6 @@ function mySqrt(x) {
 ;
 console.log(mySqrt(144)); //12
 console.log(mySqrt(90)); //9
-
 function mySqrt2(x) {
     let left = 0;
     let right = x;
@@ -41,7 +40,7 @@ function mySqrt2(x) {
         }
     }
     return right;
-};
-
+}
+;
 console.log(mySqrt2(144)); //12
 console.log(mySqrt2(90)); //9

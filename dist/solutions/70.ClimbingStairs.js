@@ -42,4 +42,11 @@ function climbStairs(n) {
     return thirdStep;
 }
 ;
+console.log(climbStairs(3)); //3
+console.log(climbStairs(4)); //5
 console.log(climbStairs(5)); //8
+console.log(climbStairs(6)); //13
+console.log(climbStairs(7)); //21
+console.log(climbStairs(8)); //34
+console.log(climbStairs(9)); //55
+console.log(climbStairs(10)); //89
